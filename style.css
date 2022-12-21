@@ -14,7 +14,6 @@ nav{
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
-    font-family: ;
 }
 
 .menu2{
@@ -39,6 +38,7 @@ ul{
 
 .carou{
    background-color: rebeccapurple;
+   padding: 50px;
 }
 
 .carousel {
@@ -165,8 +165,8 @@ input#img-3:checked ~ .carousel-dots label#img-dot-3,
 input#img-4:checked ~ .carousel-dots label#img-dot-4,
 input#img-5:checked ~ .carousel-dots label#img-dot-5,
 input#img-6:checked ~ .carousel-dots label#img-dot-6 {
-	opacity: 1;
-}
+	opacity: 1; 
+} 
 
 
 input:checked + .slide-container .nav label { display: block; }
@@ -175,3 +175,44 @@ input:checked + .slide-container .nav label { display: block; }
     width: 400px;
     margin-left: 70px;
 }
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tarif{
+    display: flex;
+    justify-content: space-around;
+    height: 50ch;
+    margin-top: 30px;
+}
+
+.tarif-coupe{
+    background-color: #FFEEF0;
+    border: solid;
+    border-color: black;
+    width: 50ch;
+    text-align: center;
+}
+
+.tarif-color{
+    border: solid;
+    border-color: black;
+    width: 50ch;
+    text-align: center;
+}
+
+.tarif-ongles{
+    background-color: #CE9DA3;
+    border: solid;
+    border-color: black;
+    width: 50ch;
+    text-align: center;
+}
+
+li{
+    padding-top: 50px;
+
+}
+
